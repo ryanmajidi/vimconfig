@@ -17,3 +17,4 @@ set foldmethod=indent "fold based on indent level
 "language specific stuff below
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 au BufNewFile,BufRead *.ejs set filetype=html
+au BufNewFile,BufRead *.ts set filetype=javascript
